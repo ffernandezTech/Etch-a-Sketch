@@ -24,10 +24,12 @@
 
 
 body{
+
+    width: 932px;
+    height: auto;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-content: center;
+    align-items: center;
     
 
 }
@@ -35,7 +37,7 @@ body{
 #btnInput{
     width: 350px;
     height: auto;
-    align-self: center;
+    /* align-self: center; */
 
 
 }
@@ -45,7 +47,7 @@ body{
     width: 832px;
     height: 832px;
    
-    align-self: center;
+    /* align-self: center; */
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
