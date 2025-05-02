@@ -22,17 +22,30 @@
 }
 
 
+
 body{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-content: center;
     
 
 }
+
+#btnInput{
+    width: 350px;
+    height: auto;
+    align-self: center;
+
+
+}
+
+
 #main-container{
     width: 832px;
     height: 832px;
    
+    align-self: center;
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
