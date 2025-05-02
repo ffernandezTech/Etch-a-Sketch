@@ -30,6 +30,8 @@ function createRGB()
 for(let x=0 ; x<=255; x++)console.log(createRGB());
 
 
+createBoxes();
+
 //getting all the divs with class box, and setting an addEventListener for each
 const getDivs = document.querySelectorAll('.box');
 
@@ -55,3 +57,4 @@ getDivs.forEach(item=>{
 
 
 })
+
