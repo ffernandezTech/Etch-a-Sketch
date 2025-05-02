@@ -8,3 +8,13 @@ for(let i=1; i<=256;i++)
     createDiv.classList.add('box')
     getMainDiv.appendChild(createDiv);
 }
+
+function createBoxes(){
+
+    for(let i=1; i<=256;i++)
+        {
+            const createDiv = document.createElement('div');
+            createDiv.classList.add('box')
+            getMainDiv.appendChild(createDiv);
+        }  
+}
