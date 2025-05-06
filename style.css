@@ -18,11 +18,12 @@
 
 body{
 
-    width: 932px;
+    width: 1500px;
     height: auto;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     
 
 }
@@ -37,8 +38,8 @@ body{
 
 
 #main-container{
-    width: 832px;
-    height: 832px;
+    width: 960px;
+    height: 960px;
    
     /* align-self: center; */
     display:flex;
@@ -49,9 +50,9 @@ body{
 }
 
 .box{
-    border: black 2px solid;
-    width: 50px;
-    height: 50px;
+    border: black 1px solid;
+    width: 60px;
+    height: 60px;
     display: inline-flex;
     
 }
