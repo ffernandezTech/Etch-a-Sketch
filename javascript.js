@@ -23,7 +23,7 @@ function createBoxes(){
 //functoin to return a random number between 0-255 for our RGB
 function createRGB()
 {
-    return Math.floor(Math.random() * (255-0))
+    return Math.floor(Math.random() * (256))
 }
 
 
@@ -36,19 +36,20 @@ getDivs.forEach(item=>{
 
     item.addEventListener('mouseover', ()=>{
 
-        
 
         // console.log(item);
+        
         //css for background color calling a function to get the number of values
+        
         item.style.backgroundColor = `rgb(${createRGB()},${createRGB()},${createRGB()} )`;
         //.classList.add('box_active');
 
 
-        //using setTimeout to change it to white or it resets
-        createWipeTime = setTimeout(() => {
-           //item.classList.remove('box_active');
-           item.style.backgroundColor = 'white'
-        }, 1000);
+        // //using setTimeout to change it to white or it resets
+        // createWipeTime = setTimeout(() => {
+        //    //item.classList.remove('box_active');
+        //    item.style.backgroundColor = 'white'
+        // }, 1000);
 
       
 
@@ -81,7 +82,7 @@ function setUserInput(input){
 
 
     let getTotalBoxes = (input*input);
-    let boxDimensions = Math.ceil(960 / input);
+    let boxDimensions = (960 / input);
 
 
 
